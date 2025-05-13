@@ -7,7 +7,7 @@ python search.py
 
 #### Example :
 ``` python 
-print(binarySearch([10, 20, 30, 40, 50, 60, 70, 80, 90, 100], 60))
+print(binary_search([10, 20, 30, 40, 50, 60, 70, 80, 90, 100], 60))  # Returns: 5
 ```
 
 #### Thanks for Watching!
