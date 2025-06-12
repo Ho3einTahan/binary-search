@@ -2,8 +2,9 @@ def binarySearch(list, target):
     left, right = 0, len(list) - 1
 
     while left <= right:
-
-        middle = left + right
+        
+        # Use // 2 to perform floor division (round down)
+        middle = (left + right)//2
 
         if target > list[middle]:
             left = middle + 1
